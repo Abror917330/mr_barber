@@ -98,7 +98,7 @@
             letter-spacing: 1px;
         }
         .btn-insta { background: linear-gradient(45deg, #f09433, #dc2743, #bc1888); }
-        .btn-wa { background: #25D366; color: #fff; }
+        .btn-tg { background: #0088cc; color: #fff; }
         .btn-map { background: #4285F4; }
         .contact-link:hover { transform: translateY(-5px); filter: brightness(1.1); box-shadow: 0 5px 15px rgba(0,0,0,0.4); }
 
@@ -175,8 +175,8 @@
                 
                 <div class="contact-grid">
                     <a href="https://instagram.com/barber_muradil" target="_blank" class="contact-link btn-insta">Instagram</a>
-                    <a href="https://wa.me/996700613211" target="_blank" class="contact-link btn-wa">WhatsApp</a>
-                    <a href="https://maps.google.com/maps/place/Ош/" target="_blank" class="contact-link btn-map">На карте (г. Ош)</a>
+                    <a href="https://t.me/+996700613211" target="_blank" class="contact-link btn-tg">Telegram</a>
+                    <a href="https://www.google.com/maps/place/%D0%9A%D0%BE%D0%BA+%D0%96%D0%B0%D1%80/@40.3029238,72.3557396,12.79z/data=!4m6!3m5!1s0x38bc410020a5836f:0xfd59a5f44ea2aa63!8m2!3d40.3008087!4d72.3598858!16s%2Fg%2F11x1crrfmd?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="contact-link btn-map">На карте (г. Ош)</a>
                 </div>
 
                 <div class="address-text">
@@ -203,13 +203,13 @@
             <span class="close-modal" onclick="closeModal('masterModal')">×</span>
             <h2 style="font-family: var(--font-display); color: var(--accent-yellow); font-size: 2.5rem; margin-bottom: 15px;">Muradil</h2>
             <p style="font-size: 1rem; line-height: 1.8; color: var(--text-grey); text-align: left;">
-                • <b>Опыт:</b> 6 лет в индустрии барберинга.<br>
-                • <b>Обучение:</b> Проходил курсы в топовых академиях Узбекистана.<br>
+                • <b>Опыт:</b> 6 лет в industrii barberinga.<br>
+                • <b>Обучение:</b> Prohodil kursi v topovih akademiyah Uzbekistana.<br>
                 • <b>Специализация:</b> Мужские стрижки любой сложности, моделирование бороды, королевское бритьё.<br>
                 • <b>Философия:</b> Качество важнее скорости.
             </p>
             <div style="margin-top: 30px; display: flex; flex-direction: column; gap: 10px;">
-                <a href="https://wa.me/996XXXXXXX" class="contact-link btn-wa">Записаться сейчас</a>
+                <a href="https://t.me/+996700613211" class="contact-link btn-tg">Записаться в Telegram</a>
             </div>
         </div>
     </div>
@@ -220,7 +220,6 @@
     </div>
 
     <script>
-        // Modal functions
         function openMasterModal() {
             document.getElementById('masterModal').style.display = 'flex';
         }
@@ -240,7 +239,7 @@
             }
         }
 
-        // --- SILLIQ PAYDO BO'LISH FUNCIYASI (REVEAL) ---
+        // --- SILLIQ PAYDO BO'LISH FUNCIYASI ---
         function reveal() {
             var reveals = document.querySelectorAll(".reveal");
             for (var i = 0; i < reveals.length; i++) {
@@ -254,7 +253,6 @@
         }
 
         window.addEventListener("scroll", reveal);
-        // Sahifa yangilanganda ham ishlashi uchun:
         window.addEventListener("load", reveal);
     </script>
 </body>
